@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.body {
+  margin: 0 auto;
+  max-width: 1200px;
+  font-family: "Montserrat", "Poppins", sans-serif;
+}
+.header {
+  display: flex;
+  text-align: center;
+  margin-top: 30px;
+}
+.figure {
+  align-items: center;
+  height: 46px;
+  display: flex;
+  margin: 0;
+}
+.logo {
+  width: 34px;
+}
+.nav {
+  width: 352px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.caption_logo {
+  margin-left: 10px;
+  margin-top: 5px;
+  color: #173a56;
+  font-size: 25px;
+  font-weight: bold;
+}
+.menu {
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  width: 352px;
+  height: 28px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.menu_item {
+  margin-right: 10px;
+  text-align: center;
+}
+.menu_link,
+.link_footer {
+  text-decoration: none;
+  color: #2f281e;
+}
+.menu_link:hover {
+  color: #ff9900;
+}
+.btn_header {
+  margin-left: 32px;
+  margin-bottom: -7px;
+  width: 100px;
+  height: 40px;
+  border-radius: 1px 4px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5%;
+  color: rgb(255, 255, 255);
+  background-color: #ff9900;
+  border: none;
+  outline: 1px solid #bcd0e5;
+}
+.btn_header:hover {
+  margin-right: 0;
+  color: black;
+  background-color: white;
+  border-color: #bce1ff;
+}
+.section {
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 0;
+  margin-top: 30px;
+}
+.title_1 {
+  font-size: 44px;
+  width: 50%;
+  padding: 10px;
+}
+.title_2 {
+  color: #2f281e;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 36px;
+  width: 539px;
+  height: 88px;
+}
+.text {
+  font-size: 18px;
+  width: 50%;
+  padding: 10px;
+  color: #544837;
+  font-size: 18px;
+  margin-top: 25px;
+}
+.btn {
+  width: 180px;
+  height: 50px;
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
+  background-color: #ff9900;
+  outline: 1px solid #bcd0e5;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+.btn_sing {
+  justify-content: center;
+  margin-left: calc(50% - 90px);
+}
+.btn:hover {
+  margin-right: 0;
+  color: black;
+  background-color: white;
+}
+.div_pic {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-left: 20px;
+  margin: 0;
+  width: 1200px;
+}
+.ul {
+  list-style: none;
+  text-align: left;
+  display: flex;
+  text-decoration: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+.figcaption {
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.section_grad {
+  background: linear-gradient(#fff4e500, #ffe5d2a0);
+  height: 450px;
+  top: 506.01px;
+  left: 1805px;
+  gap: 0px;
+  opacity: 0px;
+  clip-path: ellipse(70% 100% at 50% 0%);
+}
+.subtitle {
+  color: #544837;
+  font-size: 16px;
+  margin: 0;
+}
+.footer {
+  display: flex;
+  gap: 150px;
+  margin-bottom: 50px;
+}
+.menu_footer {
+  list-style: none;
+  padding: 0;
+  width: 135px;
+}
+.item_footer {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.item_footer :hover {
+  color: #ff9900;
+}
+.subject {
+  font-size: 20px;
+  width: 280px;
+  height: 57px;
+}
+.figure_footer {
+  align-items: center;
+  height: 46px;
+  display: flex;
+  margin: 0;
+}
+.logo_footer {
+  width: 34px;
+  margin-left: 0px;
+}
+.phone {
+  width: 250px;
+  height: 50px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  border-radius: 4px;
+  padding: 0;
+  border-color: #bcd0e5;
+}
+.hr {
+  width: 100%;
+  border: none;
+  border-top: 1px solid #bcd0e57f;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.footer_div {
+  width: 135px;
+  padding: 0 5px;
+}
+.title_3 {
+  padding: 0;
+  margin: 0;
+  font-size: 28px;
+}
+.paragraph {
+  font-weight: normal;
+  font-size: 18px;
+}
+.ul_prm {
+  flex-direction: column;
+}
+.paragraph_prm {
+  width: 500px;
+  margin-left: 10px;
+}
+.img_icon {
+  margin: auto;
+}
+.text_2 {
+  width: 525px;
+}
+.img {
+  margin-left: 80px;
+}
+.caption {
+  font-size: 18px;
+  margin: 0;
+  color: #2f281e;
+  margin-top: 30px;
+}
+.img_second {
+  margin-left: 0;
+  margin-right: 80px;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
